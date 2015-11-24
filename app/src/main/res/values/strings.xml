@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AgendaAndroidActivity!</string>
+    <string name="app_name">AgendaAndroid</string>
+   
+    <string name="addnewbook">Agregar Un Nuevo Libro</string>
+    <string name="title">Titulo:</string>
+    <string name="autor">Autor:</string>
+    <string name="isbn">ISBN</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Agregar</string>
+    <string name="result">RESULTADO</string>
+    <string name="resultOk">INSERCCION DE LIBRO EXISTOSA.!!</string>
+      <string name="cancelOp">OPERACION CANCELADA</string>
+      <string name="update">ACTUALIZACION DE DATOS</string>
+      <string name="updatebutton">Actualizar</string>
+      <string name="resultOkU">DATOS MODIFICADOS CON EXITO.!</string>
+      <string name="isdbeual">ISBN =</string>
+      <string name="resultd">REGISTRO ELIMINADO CON EXITO.</string>
+
+</resources>

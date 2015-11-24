@@ -1,0 +1,82 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:2:1-33:12
+	xmlns:android
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:7:15-40
+		INJECTED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:8:9-89
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:8:26-70
+application
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:10:5-31:19
+	android:label
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:11:9-45
+activity#proyectagenda.com.AgendaAndroidActivity
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:13:9-21:20
+	android:label
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:15:13-45
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:14:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:19:27-74
+activity#proyectagenda.com.NuevoContacto
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:22:9-59
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:22:19-47
+activity#proyectagenda.com.EliminarContacto
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:23:9-62
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:23:19-50
+activity#proyectagenda.com.Nuevo
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:24:9-51
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:24:19-39
+activity#proyectagenda.com.Consulta
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:25:9-54
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:25:19-42
+activity#proyectagenda.com.Modificar1
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:26:9-56
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:26:19-44
+activity#proyectagenda.com.Modificar2
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:27:9-56
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:27:19-44
+activity#proyectagenda.com.buscar
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:28:9-52
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:28:19-40
+activity#proyectagenda.com.Detalle
+ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:29:9-53
+	android:name
+		ADDED from C:\Users\SaraIvette\Desktop\android\AgendaAndroid1\app\src\main\AndroidManifest.xml:29:19-41

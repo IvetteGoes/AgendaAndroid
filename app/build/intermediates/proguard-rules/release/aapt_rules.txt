@@ -1,0 +1,47 @@
+# view AndroidManifest.xml #generated:16
+-keep class proyectagenda.com.AgendaAndroidActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class proyectagenda.com.Consulta { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class proyectagenda.com.Detalle { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class proyectagenda.com.EliminarContacto { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class proyectagenda.com.Modificar1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class proyectagenda.com.Modificar2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class proyectagenda.com.Nuevo { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class proyectagenda.com.NuevoContacto { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class proyectagenda.com.buscar { <init>(...); }
+
+# onClick res/layout/agregarususario.xml #generated:99
+# onClick res/layout/bienvenida.xml #generated:52
+-keepclassmembers class * { *** agregar(...); }
+
+# onClick res/layout/bienvenida.xml #generated:78
+# onClick res/layout/buscarcontacto.xml #generated:51
+-keepclassmembers class * { *** buscar(...); }
+
+# onClick res/layout/bienvenida.xml #generated:113
+# onClick res/layout/eliminarcontacto.xml #generated:51
+-keepclassmembers class * { *** eliminar(...); }
+
+# onClick res/layout/buscarcontacto.xml #generated:57
+-keepclassmembers class * { *** llamar(...); }
+
+# onClick res/layout/bienvenida.xml #generated:139
+# onClick res/layout/modficacion02.xml #generated:99
+# onClick res/layout/modificarcontacto.xml #generated:51
+-keepclassmembers class * { *** modificar(...); }
+

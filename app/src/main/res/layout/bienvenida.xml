@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e2e2e2"
+    >
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="126dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+    
+	    <TextView  
+			android:id="@+id/txBienvenida"
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center"
+	    	android:textStyle="bold"
+	    	android:textSize="25sp"
+	    	android:textColor="#000000" android:text="Agenda Telefónica"/>
+	    	
+    
+    </LinearLayout>
+    
+    <TableLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+	>
+		
+		<TableRow
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingLeft="20px"
+			android:paddingRight="20px"
+			android:paddingBottom = "10px"
+		>
+
+			<LinearLayout
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:orientation="vertical"
+			    android:paddingRight="20px" >
+
+			    <Button
+			        android:layout_width="73dp"
+			        android:layout_height="69dp"
+					android:background="@drawable/adduser"
+			        android:onClick="agregar"
+			        android:padding="20px" android:drawingCacheQuality="low">
+			    </Button>
+
+			    <TextView
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:text="Agregar contacto"
+			        android:textColor="#000000"
+			        android:textStyle="bold" />
+			</LinearLayout>
+		    
+		    <LinearLayout
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:orientation="vertical"
+		        android:paddingLeft="20px" >
+
+		        <Button
+		            android:layout_width="54dp"
+		            android:layout_height="63dp"
+					android:background="@drawable/buscar"
+		            android:onClick="buscar" />
+
+		        <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="Buscar contacto"
+		            android:textColor="#000000"
+		            android:textStyle="bold" />
+		    </LinearLayout>
+		    
+ 		</TableRow>
+ 		
+ 		<TableRow
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingLeft="20px"
+			android:paddingRight="20px"
+			android:paddingTop = "20px"
+			android:paddingBottom = "10px"
+		>
+		<LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingRight="20px"
+			android:weightSum="1">
+
+				<Button
+				    android:layout_width="71dp"
+				    android:layout_height="74dp"
+				    android:background="@drawable/userdelete"
+				    android:onClick="eliminar"
+				    android:padding="20px">
+</Button>
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#000000" android:text="Eliminar contacto"/>
+		    </LinearLayout>
+		    
+		    <LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingLeft="20px"
+		   	>
+			   	
+			    <Button
+			        android:layout_width="70dp"
+			        android:layout_height="72dp"
+			        android:background="@drawable/updateuser"
+			        android:onClick="modificar" />
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#000000" android:text="Modificar contacto"/>
+		    </LinearLayout>
+		    
+ 		</TableRow>
+	
+	</TableLayout>
+
+
+</LinearLayout>
